@@ -1,0 +1,9 @@
+[versions]
+kotlin-gradle-plugin = "2.3.20"
+metro = "1.0.0"
+
+[plugins]
+metro = { id = "dev.zacsweers.metro", version.ref = "metro" }
+
+[libraries]
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-gradle-plugin" }
